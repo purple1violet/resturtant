@@ -1,0 +1,27 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "restaurant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "purple1violet"
+  },
+  "author": "violet",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "csv-loader": "^3.0.5",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "url-loader": "^4.1.1"
+  }
+}

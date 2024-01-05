@@ -1,0 +1,171 @@
+body{
+    background-color: white;
+    margin:0;
+    padding:0;
+    height: 100vh;
+    width: 100vw;
+    overflow-y:hidden;
+}
+
+#container{
+    height:100vh;
+    display: grid;
+    grid-template-rows: 0.5fr 4fr;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#logo{
+    width:50px;
+    height:50px;
+    border:1px solid red;
+    margin-left:10%;
+}
+
+.buttonNav{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 0px auto;
+    font-size: 1.2rem;
+    height:50px;
+    width: 100px;;
+}
+
+.buttonNav:hover{
+    background-color: aliceblue;
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.562);
+    height: 80px;
+    display: grid;
+    grid-template-columns: 0.5fr 8fr;
+    justify-content: end;
+    align-items: end;
+}
+
+ul{
+  list-style: none;
+  display:flex;
+  justify-content: end;
+  margin: 0px;
+  margin-right:5%;
+}
+
+.header{
+    font-size: 5rem;
+    letter-spacing: 5px;
+    width: 100%;
+    margin:20px auto;
+    text-align: center;
+}
+
+.intro{
+    font-size: 1.2rem;
+    word-spacing: 60px;
+    width: 100%;
+}
+
+.btnContent{
+    margin: 30px auto;
+    display: flex;
+    width:50%;
+    column-gap: 100px;
+}
+
+.btnContent button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin: 0px auto;
+    font-size: 1.2rem;
+    height:50px;
+    width:110px;
+    border-radius: 10px;
+}
+
+.btnContent button:hover{
+    background-color: aliceblue;
+}
+
+.aboutImg{
+    width:400px;
+    height:400px;
+}
+
+#content{
+    background-image: url("./images/main-1.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#content > div:first-of-type{
+    position: fixed;
+    margin:0px auto;
+    padding:0px 10%;
+    top: 90px;
+    bottom:0;
+    overflow-y:auto;
+    width:80%;
+}
+
+.menu-item{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.466);
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+.summary{
+    width: 100%;
+}
+
+h2{
+    margin:0;
+    padding:0;
+}
+
+.foodContent img{
+    width:150px;
+    height:150px;
+}
+
+.infoContainer{
+    display:flex;
+    justify-content: space-between;
+    gap:70px;
+    min-width: 200px;
+}
+
+#content > div > div{
+    background-color: rgba(255, 255, 255, 0.575);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:75%;
+    margin:10px auto;
+    border-radius: 10px;
+    min-width: 500px;
+    gap: 50px;
+    padding: 35px;
+}
+
+#content > .homeContent > div.homeInfo{
+    margin-top:130px;
+    text-align: center;
+}
+
+.map{
+    width:100%;
+}
